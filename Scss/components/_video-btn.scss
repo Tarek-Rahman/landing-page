@@ -6,7 +6,7 @@
     @include img();
       background-image:
                         linear-gradient(to top left, rgba($yellow, .6), rgba($yellow, .6)), 
-                         url(/Img/0.jpg);
+                         url(Img/0.jpg);
 
 
     .box{
@@ -21,7 +21,7 @@
      @include img();
       background-image:
                         linear-gradient(to top left, rgba($yellow, .6), rgba($yellow, .6)), 
-                         url(/Img/4.jpg);
+                         url(Img/4.jpg);
                          
     .box-end{
       @include box();
