@@ -10891,7 +10891,7 @@ html {
   min-width: 40rem;
   min-height: 40rem;
   background: #fcc302;
-  background-image: linear-gradient(to top left, rgba(252, 195, 2, 0.6), rgba(252, 195, 2, 0.6)), url(../../Img/hey.jpg);
+  background-image: linear-gradient(to top left, rgba(252, 195, 2, 0.6), rgba(252, 195, 2, 0.6)), url(../Img/hey.jpg);
 }
 .service__img .img1 .box {
   width: 25rem;
@@ -10907,7 +10907,7 @@ html {
   min-width: 40rem;
   min-height: 40rem;
   background: #fcc302;
-  background-image: linear-gradient(to top left, rgba(252, 195, 2, 0.6), rgba(252, 195, 2, 0.6)), url(../../Img/4.jpg);
+  background-image: linear-gradient(to top left, rgba(252, 195, 2, 0.6), rgba(252, 195, 2, 0.6)), url(../Img/4.jpg);
 }
 .service__img .img2 .box-end {
   width: 25rem;
@@ -11242,7 +11242,7 @@ section, footer {
 }
 
 .client {
-  background-image: linear-gradient(to top left, rgba(252, 195, 2, 0.8), rgba(252, 195, 2, 0.8)), url(../../Img/11.jpg);
+  background-image: linear-gradient(to top left, rgba(252, 195, 2, 0.8), rgba(252, 195, 2, 0.8)), url(../Img/11.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 55rem;
