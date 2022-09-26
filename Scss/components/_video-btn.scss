@@ -1,0 +1,63 @@
+
+  .service__img{
+    
+    // img one
+  .img1{
+    @include img();
+      background-image:
+                        linear-gradient(to top left, rgba($yellow, .6), rgba($yellow, .6)), 
+                         url(/Img/0.jpg);
+
+
+    .box{
+   @include box();
+    }
+
+
+}
+
+// img two
+    .img2{
+     @include img();
+      background-image:
+                        linear-gradient(to top left, rgba($yellow, .6), rgba($yellow, .6)), 
+                         url(/Img/4.jpg);
+                         
+    .box-end{
+      @include box();
+
+    }
+  }
+
+  // round & icon here
+    
+    .round{
+      width: 8rem;
+      height: 8rem;
+      background-color: $white;
+      border-radius: 50%;
+      @include pCenter();
+    }
+
+    .icon{
+    width: 2rem;
+    height:2rem;
+    border-style: solid;
+    border-width: 1rem 0 1rem 2rem;
+    box-sizing: border-box;
+    border-color: transparent transparent transparent $yellow;
+    @include pCenter();
+
+    }
+  
+    // for last icon
+    .icon-roted{
+      transform: rotate(308deg);
+      margin-top: -1rem;
+      margin-left: -1rem;
+    }
+
+   
+
+  
+  }

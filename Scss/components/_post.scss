@@ -1,0 +1,57 @@
+.post{
+  
+  width: 95%;
+
+
+  &__img{
+   
+    img{
+        width: 100% !important;
+         box-shadow: 0 1rem 1rem rgba($dark, 0.08);
+    }
+   
+  }
+
+  &__content{
+    border: 2px solid $light-white;
+    border-top: none;
+    padding: 2rem 3rem;
+  }
+
+  &__title{
+    font-size: calc($sub-title-size / 2);
+    color: $dark;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    
+  }
+
+  &__date{
+    font-size:$defult-font-size;
+    color: $cyan;
+    padding-bottom: 2rem;
+
+    
+  }
+
+  &__info{
+    font-size:$defult-font-size;
+    color: $dark;
+    text-align: justify;
+    padding-bottom: 2rem;
+
+    
+
+  }
+
+  &__read a{
+    font-size: $sub-font-size;
+    color: $cyan;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

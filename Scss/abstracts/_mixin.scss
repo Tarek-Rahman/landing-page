@@ -1,0 +1,58 @@
+@mixin pCenter {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@mixin socialIcon($color, $bg, $hoverColor) {
+   
+  .socialIcon{
+
+    display: flex;
+    justify-content: center;
+   
+    
+    .icons{
+      width: 4rem;
+      height: 4rem;
+      background-color: $bg;
+      margin-left: 1rem;
+      border-radius: 50%;
+    }
+
+    .icons:hover i{
+      color: $hoverColor;
+    }
+
+    i{
+      display: inline-block;
+      font-size: $sub-font-size;
+      color: $color;
+      margin-left: .2rem;
+      margin-top: .5rem;
+      border-radius: 50%;
+      vertical-align: center;
+
+      
+    }
+  }
+}
+
+
+@mixin img {
+      position: relative;
+      min-width: 40rem;
+      min-height: 40rem;
+      background: $yellow;
+}
+
+@mixin box {
+    width: 25rem;
+    height: 20rem;
+    background-color: $yellow;
+    position: absolute;
+    left: -3rem;
+    bottom: -3rem;
+    z-index: -1;
+}

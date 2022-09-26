@@ -1,0 +1,48 @@
+.heading__primary{
+  font-size: 6.7rem;
+  color: $white;
+  font-weight: 500;
+  line-height: 1.2;
+ 
+}
+
+.heading__secondary{
+  font-size: $sub-title-size;
+  color: $dark;
+  font-weight: 600;
+  line-height: 1.2;
+
+}
+
+.heading__tertiary{
+      color: $white;
+      width: 70%;
+      margin: 4rem auto;
+      text-align: center;
+      font-size: $tertiary-size;
+  
+}
+
+.heading__title{
+  
+  font-size: $title-size;
+  font-weight: 600;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.heading__small{
+  text-align: center;
+  font-size: $small-title;
+  color: $white;
+  font-weight: 600;
+  padding-top: 3rem;
+
+}
+
+p{
+  color: $dark;
+  font-size: $main-font-size;
+  font-weight: 300;
+
+}

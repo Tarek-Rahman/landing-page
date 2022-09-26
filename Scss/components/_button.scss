@@ -1,0 +1,39 @@
+
+
+.button {
+  font-size: $sub-font-size;
+  color: $white;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+ 
+}
+
+.btn-cyan{
+ background-color: $cyan;
+ display: inline-block;
+}
+.btn-cyan-2{
+  border-radius: 5rem;
+  
+}
+
+.btn-yellow{
+  background-color: $yellow;
+  display: inline-block;
+}
+
+.btn-empty{
+  border: 3px solid $white !important;
+  margin-left: 3rem;
+  transition: .2s ease-in;
+
+  &:hover{
+    background-color: $white;
+    color: $dark;
+    border: none;
+  }
+}
+

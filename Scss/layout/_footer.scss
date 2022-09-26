@@ -1,0 +1,69 @@
+.footer{
+  background-color: $dark;
+
+  .row{
+    row-gap:8rem;
+  }
+
+  &__name{
+    font-size: $small-title;
+    color: $white;
+    font-weight: 700;
+    padding-bottom:3rem;
+    
+  }
+
+  #lastName{padding-bottom: 1rem;}
+
+  p{
+    color: $white;
+    font-size: $tiny-size;
+    padding-bottom: $small-title;
+    text-align: right;
+    
+  }
+
+  &__link{
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+
+    li{
+      margin-bottom: 1rem;
+    }
+
+    a{
+      font-size: calc($sub-title-size / 2);
+      font-weight: 300;
+      color: $white;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+ &__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   }
+
+
+    @include socialIcon($dark, $white, $yellow);
+
+    &__social{
+      margin-top: 4rem;
+      i{
+        margin-left: 1rem !important;
+      }
+    }
+
+
+    .nav__form{
+      max-width: 100% !important;
+    }
+}

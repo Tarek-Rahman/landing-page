@@ -1,0 +1,21 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "abstracts/mixin";
+@import "abstracts/utilies";
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/typography";
+@import "base/mediaQuery";
+
+@import "components/button";
+@import "components/post";
+@import "components/video-btn";
+@import "components/client-box";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/heading";
+
+@import "pages/home";

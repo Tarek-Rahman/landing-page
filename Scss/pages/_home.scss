@@ -1,0 +1,121 @@
+section,footer{
+  padding: 10rem 0;
+}
+
+.service, .work, .animal, .team, .blog {
+  .row{
+    row-gap: 8rem !important;
+  }
+}
+
+.animal, .work{
+  background-color: $yellow;
+
+  .row{
+    padding-top: 5rem;
+  }
+}
+
+.team, .blog{
+  .heading__title, .heading__tertiary{
+  color: $dark;
+ }
+ 
+
+}
+
+
+// service start
+.service{
+  .heading__secondary{
+    margin-top: 8rem;
+  }
+  p{
+    margin: 4rem 0;
+  }
+}
+// service end
+
+
+
+
+
+// work start
+.work{
+ 
+  h4{
+    width: 95%;
+    margin: 2rem auto;
+    color: $white;
+    font-size: 2.5rem;
+    font-weight: 300;
+
+  }
+}
+// work end
+
+
+
+
+// animal
+
+.animal{
+
+  .price{
+    font-size: $main-font-size;
+    color: $white;
+    font-weight: 500;
+    margin: 2rem 0;
+    del{
+      margin-right:$main-font-size;
+    }
+
+    &:hover del{
+      color: $dark;
+    }
+  }
+
+}
+
+.team{
+
+  .row{
+    padding-top: 5rem;
+  }
+
+  &__info{
+    margin-top: 2rem;
+
+    .name{
+    font-size: $main-font-size;
+    font-weight: 700;
+    color: $dark;
+
+    }
+    .position{
+      font-size: $sub-font-size;
+      text-transform: uppercase;
+      color: $dark;
+      margin:.5rem 0 2rem 0;
+    }
+  }
+
+  @include socialIcon($white, $yellow, $dark);
+}
+
+
+.client{
+  background-image: 
+                  linear-gradient(to top left, rgba($yellow, .8), rgba($yellow, .8)), url(/Img/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 55rem;
+  
+  .row{
+    min-height: 55rem;
+    align-items: center;
+  }
+  
+}
+
+
